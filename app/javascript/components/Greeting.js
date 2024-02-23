@@ -1,26 +1,3 @@
-// import React, { useEffect } from 'react';
-//  import { useSelector, useDispatch } from 'react-redux';
-// import { randomgreeting } from '../Redux/slice/greetingSlice';
-
-// function Greeting() {
-//   const dispatch = useDispatch();
-//   const greeting = useSelector(state => state.greetingSlice.greeting);
-
-//   useEffect(() => {
-//     dispatch(randomgreeting());
-//   }, [dispatch]);
-
-//   return (
-//     <div>
-//       <h1>Hello chacha!</h1>
-//       <p>{greeting}</p> 
-//     </div>
-//   );
-// }
-
-// export default Greeting;
-
-// components/Greeting.js
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { randomGreeting } from '../Redux/slice/greetingSlice';
@@ -37,14 +14,14 @@ function Greeting() {
     dispatch(randomGreeting());
   };
 
-
   return (
-    <div>
-      <h1>Hello chacha!</h1>
-      <p>{greeting}</p> 
-      <button onClick={handleClick}>Get New Greeting</button>
+    <div className="greeting-container">
+      <h1 className="greeting-title">Welcome to our Hello Rails-React in one app !</h1>
+      <div className="greeting-content">
+        <p className="greeting-text">{greeting}</p>
+        <button className="greeting-button" onClick={handleClick}>Get New Greeting</button>
+      </div>
     </div>
   );
 }
-
 export default Greeting;
