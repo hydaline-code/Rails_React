@@ -1,9 +1,10 @@
 >
 
 # 📗 Table of Contents
-
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -34,7 +35,11 @@
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
+### Key Features <a name="key-features"></a>
 
+- **Feature 1**: Setup Rail an React bundle with Webpack
+- **Feature 2**: Set up Database and implement the backend
+- **Feature 3**: Set React /Redux and impement the frontend
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
