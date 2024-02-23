@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -79,6 +80,9 @@ To get started with **hello-rails-react**, follow these steps:
 
 > - GitHub: [hydaline](https://github.com/hydaline-code)
 
+🔭 Future Features <a name="future-features"></a>
+-[Set react rails on separate app]
+-[Implement CORS]
 
 ## 🤝 Contributing <a name="contributing"></a>
 
