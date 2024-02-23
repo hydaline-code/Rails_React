@@ -85,7 +85,8 @@ To get started with **hello-rails-react**, follow these steps:
 
 > - GitHub: [hydaline](https://github.com/hydaline-code)
 
-🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
+
 -[Set react rails on separate app]
 -[Implement CORS]
 
