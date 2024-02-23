@@ -1,28 +1,3 @@
-// import { createAsyncThunk } from '@reduxjs/toolkit';
-
-// const initialState = {
-//   a_greeting: "",
-// };
-
-// export const randomgreeting = createAsyncThunk(
-//   'fetchgreeting',
-//   async () => {
-//     const response = await fetch("http://127.0.0.1:3000/api/v1/greetings/index");
-//     const data = await response.json(); // Parse response as JSON
-//     return data.a_greeting.greeting; // Extract greeting message from response data
-//   },
-// );
-
-// export default (state = initialState, action) => {
-//   switch (action.type) {
-//     case randomgreeting.fulfilled:
-//       return { ...state, greeting: action.payload };
-//     default:
-//       return state;
-//   }
-// };
-// Redux/slice/greetingSlice.js
-
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 export const randomGreeting = createAsyncThunk(
