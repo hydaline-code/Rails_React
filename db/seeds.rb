@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+# db/seeds.rb
+greetings = [
+  "Hello, how can I assist you today?",
+  "Greetings! What can I do for you?",
+  "Hi there! Need any help?",
+  "Welcome! How may I help you?",
+  "Hey! How can I be of service?"
+]
+
+greetings.each do |greeting|
+  Greeting.create(content: greeting)
+end
